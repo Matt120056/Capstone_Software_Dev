@@ -4,7 +4,7 @@
 **Course:** Capstone Project  
 **Project Option:** Option A – Personal Finance Management System  
 **Students:** Matt pheaton, Priscilla Olohi Eke, Elizabeth Mueni Busy
-**Date:** November 9, 2026
+**Date:** November 16, 2026
 
 ---
 
