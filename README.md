@@ -51,21 +51,7 @@ The following diagram illustrates the relationship between
 transactions and budgets in the Personal Finance Management System.
 
 
-erDiagram
-    TRANSACTION {
-        int TransactionId PK
-        datetime Date
-        string Type
-        string Category FK
-        decimal Amount
-        string Description
-    }
+<img width="572" height="994" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/e841b455-5ca5-43d9-8ec8-26444eb194f7" />
 
-    BUDGET {
-        string Category PK
-        decimal MonthlyLimit
-    }
-
-    BUDGET o|--o{ TRANSACTION : "category"
 
 
