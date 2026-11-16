@@ -45,3 +45,27 @@ dotnet run
 The application uses fictional financial transactions.
 No real financial or banking information is required.
 
+## Entity Relationship Diagram (ERD)
+
+The following diagram illustrates the relationship between
+transactions and budgets in the Personal Finance Management System.
+
+
+erDiagram
+    TRANSACTION {
+        int TransactionId PK
+        datetime Date
+        string Type
+        string Category FK
+        decimal Amount
+        string Description
+    }
+
+    BUDGET {
+        string Category PK
+        decimal MonthlyLimit
+    }
+
+    BUDGET o|--o{ TRANSACTION : "category"
+
+
