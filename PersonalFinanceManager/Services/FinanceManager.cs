@@ -158,7 +158,7 @@ public class FinanceManager
         //For Either elizabeth or priscilla 
         // TODO: Find transaction by ID
         // TODO: Request updated information
-        // TODO: Validate changes
+        // TODO: Validate changes added
     }
 
     // DELETE TRANSACTION
