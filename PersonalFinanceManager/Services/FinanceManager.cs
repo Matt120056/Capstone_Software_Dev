@@ -1,4 +1,4 @@
-//I Did my best to explain every section so its easier to understand.
+//I Did my best to explain every section for yall
 using PersonalFinanceManager.Models;
 
 namespace PersonalFinanceManager.Services;
@@ -31,6 +31,7 @@ public class FinanceManager
     // ADD TRANSACTION
     public void AddTransaction(Transaction transaction)
     {
+        //For Either elizabeth or priscilla 
         // TODO: Validate amount
         // TODO: Validate date
         // TODO: Check duplicate ID
@@ -154,6 +155,7 @@ public class FinanceManager
     // EDIT TRANSACTION
     public void EditTransaction(int id)
     {
+        //For Either elizabeth or priscilla 
         // TODO: Find transaction by ID
         // TODO: Request updated information
         // TODO: Validate changes
@@ -162,6 +164,7 @@ public class FinanceManager
     // DELETE TRANSACTION
     public void DeleteTransaction(int id)
     {
+        //For Either elizabeth or priscilla 
         // TODO: Find transaction by ID
         // TODO: Remove transaction
     }
